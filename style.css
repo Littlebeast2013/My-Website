@@ -1,0 +1,168 @@
+nav {display:flex;
+height:auto;
+width:1000px;
+}
+
+a {text-decoration:none;
+color:white;
+  margin:15px;
+  margin-left:30px;
+  
+}
+
+header{
+  background:#222;
+height:60px;
+width:1100px;
+  line-height: 2;
+    font-family: 'Josefin Sans', sans-serif;
+  font-weight:450px;
+  font-size:30px
+}
+
+
+aside {
+  height:auto;
+  margin-right:90px;
+   display: flex;
+  flex-direction: column;
+  
+}
+  
+  content{ 
+ width:300px;
+    height:auto;
+    text-position:absolute;
+}
+
+
+img { width: 400px;
+  height: 350px;
+  object-fit: cover; }
+
+div {margin:5px;
+display:column;}
+
+aside {
+display:column;}
+
+
+
+
+
+
+
+blockquote::before 
+  {
+  content: '”';}
+
+blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  font-size:27px;
+  background: #222;
+  width:200px;
+  text-align:center;
+  height:auto;
+  padding:15px;
+  margin-bottom: 70px;
+line-height:2}
+
+
+
+
+
+
+
+ul{
+  list-style-type: square; 
+  color:#222;}
+
+.anakin{  
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+   top: -280px;
+  right: -150px;
+ color:#222;}
+
+.title{
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+    top: -230px;
+  right: -0px;}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:450px;
+  color:#222;}
+
+h4{
+  font-family: 'Merriweather', serif;
+  color:#222;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 0;
+}
+
+p, ul, h4 {
+  padding-bottom: 30px;}
+
+
+p,h3, .prvni_ul, li {
+  font-family: 'Josefin Sans', sans-serif; 
+  color:#222;
+  line-height: 1.5;}
+
+
+h3, .prvni_ul {
+  font-size:21px;
+  font-weight:normal;
+  color:#222;
+  }
+
+.nadpis {
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+
+.title{  font-size:30px;
+margin-left: 80px;
+ font-family: 'Abril Fatface', cursive;}
+
+
+.anakin {  
+  font-size:50px; 
+  margin-left: 80px;
+}
+
+
+main {display:flex;}
+
+div {display:flex;
+flex-direction: column;
+width:600px;}
+
+.quotes: {width:200px;
+}
+
+.rulegal {position:relative;
+top:90px;}
+
+.faith{position:relative;
+top:430px;}
+
+.master {
+  position:relative;
+top:900px;
+}
+
+div {display:flex;
+flex-direction: column;
+}
+
+footer {
+  margin-left: 10%;
+  border-top: 5px;
+  padding-top: 5px;
+  border-top: 3px solid  }
